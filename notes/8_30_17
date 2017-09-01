@@ -1,0 +1,17 @@
+../../ (grabs the parent folder that's two folders up)
+
+../ (grabs the parent folder)
+
+Should only have html tags in the body tags
+
+Inlines style should only be used for special cases
+
+Ideally, you would want to have an external css file.
+
+(used to help with placement)
+display: (inline, block, inline-block)
+float: (left, right, etc)
+
+(how to use the important keyword)
+background-color: green !important;
+
