@@ -8,12 +8,21 @@ header, main, nav, footer {
 
 article {
     outline: #00FF00 dotted thick;
+}
+
+article {
     text-align: left;
+}
+
+article {
     font-size: 150%;
 }
 
 #summary {
     text-align: left;
+}
+
+#summary {
     font-size: 150%;
 }
 
@@ -23,14 +32,26 @@ article {
 
 cite {
     color: white;
+}
+
+cite {
     text-decoration: none;
 }
 
 nav a { 
     padding:15px;
     padding-bottom:4px;
+}
+
+nav a {
     font-size: 1.8em;
+}
+
+nav a {
     color:white;
+}
+
+nav a {
     font-family: 'Pacifico', cursive;
 }
 
@@ -43,12 +64,18 @@ nav a {
 header a {
     font-family: 'Pacifico', cursive;
     font-size: 125%;
+}
+
+header a {
     color: white;
     text-decoration: none;
 }
 
 img {
     max-width: 100%;
+}
+
+img {
     height: auto;
 }
 
