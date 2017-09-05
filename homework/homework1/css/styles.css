@@ -1,0 +1,68 @@
+body {
+    background-color:black;
+    color:white;
+}    
+header, main, nav, footer {
+    text-align: center;
+}
+
+article {
+    outline: #00FF00 dotted thick;
+    text-align: left;
+    font-size: 150%;
+}
+
+#summary {
+    text-align: left;
+    font-size: 150%;
+}
+
+.h {
+    text-align: center;
+}
+
+cite {
+    color: white;
+    text-decoration: none;
+}
+
+nav a { 
+    padding:15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    color:white;
+    font-family: 'Pacifico', cursive;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+header a {
+    font-family: 'Pacifico', cursive;
+    font-size: 125%;
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+/*
+    CSS:
+    max-width
+    height
+    outline
+    
+    HTML:
+    article
+    cite
+*/
