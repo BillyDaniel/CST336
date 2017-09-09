@@ -1,0 +1,27 @@
+[06-Sep-2017 20:15:46 UTC] PHP Fatal error:  Call to undefined function displaySymbol() in /home/ubuntu/workspace/CST336/labs/lab2/index.php on line 22
+[06-Sep-2017 20:15:47 UTC] PHP Stack trace:
+[06-Sep-2017 20:15:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab2/index.php:0
+[06-Sep-2017 20:25:55 UTC] PHP Fatal error:  Call to undefined function displaySymbol() in /home/ubuntu/workspace/CST336/labs/lab2/index.php on line 12
+[06-Sep-2017 20:25:55 UTC] PHP Stack trace:
+[06-Sep-2017 20:25:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab2/index.php:0
+[08-Sep-2017 19:52:00 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/CST336/labs/lab2/inc/functions.php on line 51
+[08-Sep-2017 19:52:00 UTC] PHP Stack trace:
+[08-Sep-2017 19:52:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab2/index.php:0
+[08-Sep-2017 19:54:16 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/CST336/labs/lab2/inc/functions.php on line 51
+[08-Sep-2017 19:54:16 UTC] PHP Stack trace:
+[08-Sep-2017 19:54:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab2/index.php:0
+[08-Sep-2017 19:55:33 UTC] PHP Parse error:  syntax error, unexpected 'break' (T_BREAK) in /home/ubuntu/workspace/CST336/labs/lab2/inc/functions.php on line 51
+[08-Sep-2017 19:55:33 UTC] PHP Stack trace:
+[08-Sep-2017 19:55:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab2/index.php:0
+[09-Sep-2017 19:44:46 UTC] PHP Parse error:  syntax error, unexpected 'none' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/CST336/labs/lab2/inc/functions.php on line 27
+[09-Sep-2017 19:44:46 UTC] PHP Stack trace:
+[09-Sep-2017 19:44:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab2/index.php:0
+[09-Sep-2017 19:45:40 UTC] PHP Parse error:  syntax error, unexpected 'none' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/CST336/labs/lab2/inc/functions.php on line 27
+[09-Sep-2017 19:45:40 UTC] PHP Stack trace:
+[09-Sep-2017 19:45:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab2/index.php:0
+[09-Sep-2017 19:46:46 UTC] PHP Parse error:  syntax error, unexpected 'none' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/CST336/labs/lab2/inc/functions.php on line 27
+[09-Sep-2017 19:46:46 UTC] PHP Stack trace:
+[09-Sep-2017 19:46:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab2/index.php:0
+[09-Sep-2017 19:46:48 UTC] PHP Parse error:  syntax error, unexpected 'none' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/CST336/labs/lab2/inc/functions.php on line 27
+[09-Sep-2017 19:46:48 UTC] PHP Stack trace:
+[09-Sep-2017 19:46:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab2/index.php:0

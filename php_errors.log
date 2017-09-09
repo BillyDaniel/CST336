@@ -1,0 +1,4 @@
+[08-Sep-2017 19:26:40 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/CST336/Practice/randomColor.php on line 18
+[08-Sep-2017 19:27:01 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/CST336/Practice/randomColor.php on line 18
+[08-Sep-2017 19:29:08 UTC] PHP Parse error:  syntax error, unexpected '")"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/CST336/Practice/randomColor.php on line 18
+[08-Sep-2017 19:29:31 UTC] PHP Parse error:  syntax error, unexpected '")"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/CST336/Practice/randomColor.php on line 18
