@@ -15,7 +15,11 @@ function play (){
             if ($randomValue1==$randomValue2 && $randomValue2==$randomValue3) {
                 switch($randomValue1){
                     case 0: $totalPoints = 1000;
-                            echo "<h1>Jackpot!</h1>";
+                            echo "<h1>Jackpot!</h1> 
+                            <audio loop autoplay>
+                            <source src='OhYouHitTheJackpot.m4a' type='audio/mp4'>
+                            <source src='OhYouHitTheJackpot.ogg' type='audio/ogg'>
+                            </audio>";
                             break;
                     case 1: $totalPoints = 500;
                         break;
@@ -24,10 +28,6 @@ function play (){
                     case 3: $totalPoints = 900;
                         break;
                 }
-                echo "<audio loop autoplay>
-                        <source src='OhYouHitTheJackpot.m4a' type='audio/mp4'>
-                        <source src='OhYouHitTheJackpot.ogg' type='audio/ogg'>
-                    </audio>";
                 echo "<h2>You won $totalPoints points!</h2>";
             } else {
                 echo "<h3> Try again! </h3>";
