@@ -2,3 +2,9 @@
 [08-Sep-2017 19:27:01 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/CST336/Practice/randomColor.php on line 18
 [08-Sep-2017 19:29:08 UTC] PHP Parse error:  syntax error, unexpected '")"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/CST336/Practice/randomColor.php on line 18
 [08-Sep-2017 19:29:31 UTC] PHP Parse error:  syntax error, unexpected '")"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/CST336/Practice/randomColor.php on line 18
+[13-Sep-2017 19:35:41 UTC] PHP Fatal error:  Call to undefined function display() in /home/ubuntu/workspace/CST336/Practice/php_arrays.php on line 49
+[13-Sep-2017 19:35:41 UTC] PHP Stack trace:
+[13-Sep-2017 19:35:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/Practice/php_arrays.php:0
+[13-Sep-2017 19:36:26 UTC] PHP Fatal error:  Call to undefined function display() in /home/ubuntu/workspace/CST336/Practice/php_arrays.php on line 49
+[13-Sep-2017 19:36:26 UTC] PHP Stack trace:
+[13-Sep-2017 19:36:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/Practice/php_arrays.php:0

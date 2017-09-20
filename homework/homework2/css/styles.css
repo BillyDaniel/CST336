@@ -1,0 +1,64 @@
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    display:inline;
+}
+
+body {
+    background-image: url("../img/nyjah.jpg");
+    background-color: black;
+    color:white;
+    text-align: center;
+    margin: auto;
+}
+
+
+h2 {
+    font-family: 'Pacifico', cursive;
+    text-decoration: underline;
+    display: inline;
+    color: gold;
+}
+
+h3 {
+    padding: 10px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.deck {
+    color: pink;
+    border: 10px;
+    border-style: solid;
+    border-color: pink;
+    margin: auto;
+    padding: 10px;
+}
+
+.wheel {
+    color: #54d7ff;
+    border: 10px;
+    border-style: solid;
+    border-color: #54d7ff;
+    margin: auto;
+    padding: 10px;
+}
+
+.truck {
+    color:#fffc5b;
+    border: 10px;
+    border-style: solid;
+    border-color: #fffc5b;
+    margin: auto;
+    padding: 10px;
+}
+
+#comp {
+    padding: 10px;
+    float: left;
+}
+
