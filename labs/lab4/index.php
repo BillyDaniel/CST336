@@ -110,7 +110,7 @@
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <?php
-                    for($i = 0; $i < 5; $i++) {
+                    for($i = 0; $i < 7; $i++) {
                         echo "<li data-target='#carousel-example-generic' data-slide-to='$i'";
                         echo ($i == 0) ? "class='active'" : "";
                         echo "></li>";
