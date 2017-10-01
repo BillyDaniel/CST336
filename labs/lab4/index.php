@@ -120,7 +120,7 @@
             
             <div class="carousel-inner" role="listbox">
                 <?php
-                    for($i = 0; $i < 5; $i++) {
+                    for($i = 0; $i < 7; $i++) {
                         do {
                             $randomIndex = rand(0, count($imageURLs));
                         } while(!isset($imageURLs[$randomIndex])); 
