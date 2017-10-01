@@ -25,3 +25,55 @@
 [09-Sep-2017 19:46:48 UTC] PHP Parse error:  syntax error, unexpected 'none' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/CST336/labs/lab2/inc/functions.php on line 27
 [09-Sep-2017 19:46:48 UTC] PHP Stack trace:
 [09-Sep-2017 19:46:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab2/index.php:0
+[22-Sep-2017 19:34:18 UTC] PHP Parse error:  syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/CST336/labs/lab4/index.php on line 17
+[22-Sep-2017 19:34:20 UTC] PHP Parse error:  syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/CST336/labs/lab4/index.php on line 17
+[22-Sep-2017 19:43:44 UTC] PHP Parse error:  syntax error, unexpected 'unset' (T_UNSET), expecting ',' or ';' in /home/ubuntu/workspace/CST336/labs/lab4/index.php on line 40
+[22-Sep-2017 19:44:11 UTC] PHP Parse error:  syntax error, unexpected 'unset' (T_UNSET), expecting ',' or ';' in /home/ubuntu/workspace/CST336/labs/lab4/index.php on line 40
+[22-Sep-2017 19:44:43 UTC] PHP Parse error:  syntax error, unexpected 'unset' (T_UNSET), expecting ',' or ';' in /home/ubuntu/workspace/CST336/labs/lab4/index.php on line 40
+[22-Sep-2017 19:47:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST336/labs/lab4/index.php on line 57
+[22-Sep-2017 19:47:18 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST336/labs/lab4/index.php on line 57
+[22-Sep-2017 19:47:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST336/labs/lab4/index.php on line 57
+[22-Sep-2017 19:47:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST336/labs/lab4/index.php on line 57
+[22-Sep-2017 19:57:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST336/labs/lab4/index.php on line 83
+[22-Sep-2017 19:57:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST336/labs/lab4/index.php on line 83
+[22-Sep-2017 19:59:21 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST336/labs/lab4/index.php on line 83
+[22-Sep-2017 19:59:59 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST336/labs/lab4/index.php on line 83
+[22-Sep-2017 20:00:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST336/labs/lab4/index.php on line 83
+[22-Sep-2017 20:03:34 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST336/labs/lab4/index.php on line 83
+[22-Sep-2017 20:07:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST336/labs/lab4/index.php on line 90
+[22-Sep-2017 20:07:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST336/labs/lab4/index.php on line 90
+[22-Sep-2017 20:07:26 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST336/labs/lab4/index.php on line 90
+[22-Sep-2017 20:09:25 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST336/labs/lab4/index.php on line 91
+[22-Sep-2017 20:09:26 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST336/labs/lab4/index.php on line 91
+[22-Sep-2017 20:11:34 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST336/labs/lab4/index.php on line 95
+[22-Sep-2017 20:12:18 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST336/labs/lab4/index.php on line 95
+[22-Sep-2017 20:19:06 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/CST336/labs/lab4/index.php on line 54
+[22-Sep-2017 20:19:06 UTC] PHP Stack trace:
+[22-Sep-2017 20:19:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab4/index.php:0
+[22-Sep-2017 20:24:48 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/CST336/labs/lab4/index.php on line 52
+[22-Sep-2017 20:24:48 UTC] PHP Stack trace:
+[22-Sep-2017 20:24:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab4/index.php:0
+[01-Oct-2017 07:46:39 UTC] PHP Fatal error:  Call to undefined function checkIfSelected() in /home/ubuntu/workspace/CST336/labs/lab4/index.php on line 59
+[01-Oct-2017 07:46:39 UTC] PHP Stack trace:
+[01-Oct-2017 07:46:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab4/index.php:0
+[01-Oct-2017 07:46:48 UTC] PHP Fatal error:  Call to undefined function checkIfSelected() in /home/ubuntu/workspace/CST336/labs/lab4/index.php on line 59
+[01-Oct-2017 07:46:48 UTC] PHP Stack trace:
+[01-Oct-2017 07:46:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab4/index.php:0
+[01-Oct-2017 07:46:59 UTC] PHP Fatal error:  Call to undefined function checkIfSelected() in /home/ubuntu/workspace/CST336/labs/lab4/index.php on line 60
+[01-Oct-2017 07:46:59 UTC] PHP Stack trace:
+[01-Oct-2017 07:46:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab4/index.php:0
+[01-Oct-2017 07:47:05 UTC] PHP Fatal error:  Call to undefined function checkIfSelected() in /home/ubuntu/workspace/CST336/labs/lab4/index.php on line 60
+[01-Oct-2017 07:47:05 UTC] PHP Stack trace:
+[01-Oct-2017 07:47:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab4/index.php:0
+[01-Oct-2017 07:47:06 UTC] PHP Fatal error:  Call to undefined function checkIfSelected() in /home/ubuntu/workspace/CST336/labs/lab4/index.php on line 60
+[01-Oct-2017 07:47:06 UTC] PHP Stack trace:
+[01-Oct-2017 07:47:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab4/index.php:0
+[01-Oct-2017 07:47:07 UTC] PHP Fatal error:  Call to undefined function checkIfSelected() in /home/ubuntu/workspace/CST336/labs/lab4/index.php on line 60
+[01-Oct-2017 07:47:07 UTC] PHP Stack trace:
+[01-Oct-2017 07:47:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab4/index.php:0
+[01-Oct-2017 07:47:24 UTC] PHP Fatal error:  Call to undefined function checkIfSelected() in /home/ubuntu/workspace/CST336/labs/lab4/index.php on line 60
+[01-Oct-2017 07:47:24 UTC] PHP Stack trace:
+[01-Oct-2017 07:47:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab4/index.php:0
+[01-Oct-2017 07:47:48 UTC] PHP Fatal error:  Call to undefined function checkIfSelected() in /home/ubuntu/workspace/CST336/labs/lab4/index.php on line 58
+[01-Oct-2017 07:47:48 UTC] PHP Stack trace:
+[01-Oct-2017 07:47:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab4/index.php:0

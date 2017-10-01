@@ -1,0 +1,42 @@
+[27-Sep-2017 19:41:37 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/Practice/zodiac/index.php on line 3
+[27-Sep-2017 19:41:37 UTC] PHP Stack trace:
+[27-Sep-2017 19:41:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/Practice/zodiac/index.php:0
+[27-Sep-2017 19:41:37 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/Practice/zodiac/index.php on line 3
+[27-Sep-2017 19:41:37 UTC] PHP Stack trace:
+[27-Sep-2017 19:41:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/Practice/zodiac/index.php:0
+[27-Sep-2017 19:41:37 UTC] PHP Fatal error:  Call to undefined function yearList() in /home/ubuntu/workspace/CST336/Practice/zodiac/index.php on line 22
+[27-Sep-2017 19:41:37 UTC] PHP Stack trace:
+[27-Sep-2017 19:41:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/Practice/zodiac/index.php:0
+[27-Sep-2017 19:42:04 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/Practice/zodiac/index.php on line 3
+[27-Sep-2017 19:42:04 UTC] PHP Stack trace:
+[27-Sep-2017 19:42:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/Practice/zodiac/index.php:0
+[27-Sep-2017 19:42:04 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/Practice/zodiac/index.php on line 3
+[27-Sep-2017 19:42:04 UTC] PHP Stack trace:
+[27-Sep-2017 19:42:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/Practice/zodiac/index.php:0
+[27-Sep-2017 19:42:04 UTC] PHP Fatal error:  Call to undefined function yearList() in /home/ubuntu/workspace/CST336/Practice/zodiac/index.php on line 22
+[27-Sep-2017 19:42:04 UTC] PHP Stack trace:
+[27-Sep-2017 19:42:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/Practice/zodiac/index.php:0
+[27-Sep-2017 19:43:51 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/Practice/zodiac/index.php on line 3
+[27-Sep-2017 19:43:51 UTC] PHP Stack trace:
+[27-Sep-2017 19:43:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/Practice/zodiac/index.php:0
+[27-Sep-2017 19:43:51 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/Practice/zodiac/index.php on line 3
+[27-Sep-2017 19:43:51 UTC] PHP Stack trace:
+[27-Sep-2017 19:43:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/Practice/zodiac/index.php:0
+[27-Sep-2017 19:43:51 UTC] PHP Fatal error:  Call to undefined function yearList() in /home/ubuntu/workspace/CST336/Practice/zodiac/index.php on line 22
+[27-Sep-2017 19:43:51 UTC] PHP Stack trace:
+[27-Sep-2017 19:43:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/Practice/zodiac/index.php:0
+[27-Sep-2017 19:44:25 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/Practice/zodiac/index.php on line 3
+[27-Sep-2017 19:44:25 UTC] PHP Stack trace:
+[27-Sep-2017 19:44:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/Practice/zodiac/index.php:0
+[27-Sep-2017 19:44:25 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/Practice/zodiac/index.php on line 3
+[27-Sep-2017 19:44:25 UTC] PHP Stack trace:
+[27-Sep-2017 19:44:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/Practice/zodiac/index.php:0
+[27-Sep-2017 19:45:51 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/Practice/zodiac/index.php on line 3
+[27-Sep-2017 19:45:51 UTC] PHP Stack trace:
+[27-Sep-2017 19:45:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/Practice/zodiac/index.php:0
+[27-Sep-2017 19:45:51 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/Practice/zodiac/index.php on line 3
+[27-Sep-2017 19:45:51 UTC] PHP Stack trace:
+[27-Sep-2017 19:45:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/Practice/zodiac/index.php:0
+[27-Sep-2017 19:45:51 UTC] PHP Fatal error:  Call to undefined function yearList() in /home/ubuntu/workspace/CST336/Practice/zodiac/index.php on line 22
+[27-Sep-2017 19:45:51 UTC] PHP Stack trace:
+[27-Sep-2017 19:45:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/Practice/zodiac/index.php:0

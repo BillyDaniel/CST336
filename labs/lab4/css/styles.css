@@ -1,0 +1,36 @@
+    body{
+        opacity:0.9;
+        width:100%;
+        text-align:center;
+        color:yellow;
+    }
+    
+    input {
+        font-size: 3em;
+        color: black;
+    }
+    
+    #carousel-example-generic {
+         margin: 0 auto;   
+         width: 700px;
+    }
+    
+    select {
+        font-size: 1.5em;
+        color: black;
+    }
+    
+    #layout {
+        display: inline-block;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: left;
+        color: purple;
+    }
+    
+    input {
+    font-size: 2em;
+    color: black;
+    border-radius: 20px;
+}
