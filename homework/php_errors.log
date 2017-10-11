@@ -13,3 +13,10 @@
 [20-Sep-2017 06:37:00 UTC] PHP Fatal error:  Call to undefined function getRandColor() in /home/ubuntu/workspace/CST336/homework/homework2/index.php on line 18
 [20-Sep-2017 06:37:00 UTC] PHP Stack trace:
 [20-Sep-2017 06:37:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework2/index.php:0
+[11-Oct-2017 02:48:31 UTC] PHP Parse error:  syntax error, unexpected ''.$class1.'' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/CST336/homework/homework3/index.php on line 46
+[11-Oct-2017 03:05:04 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/ubuntu/workspace/CST336/homework/homework3/index.php on line 45
+[11-Oct-2017 03:54:18 UTC] PHP Fatal error:  Call to undefined function check1() in /home/ubuntu/workspace/CST336/homework/homework3/index.php on line 67
+[11-Oct-2017 03:54:18 UTC] PHP Stack trace:
+[11-Oct-2017 03:54:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework3/index.php:0
+[11-Oct-2017 05:56:07 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/CST336/homework/homework3/index.php on line 41
+[11-Oct-2017 06:07:49 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST336/homework/homework3/index.php on line 117

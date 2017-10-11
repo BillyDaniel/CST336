@@ -1,0 +1,43 @@
+body{
+    font-family:arial;
+    background-color: grey;
+    width:100%;
+}
+
+span {
+    font-family: arial;
+    font-size: 14px;
+}
+
+header {
+    background: white;
+    color: grey;
+    padding: 5px 10px;
+    overflow: auto;
+    font-size: 14px;
+}
+
+.container {
+    margin: auto;
+    width: 90%;
+}
+
+.questions {
+    font-family: arial;
+    color: black;
+    font-size: 10px;
+}
+
+li{
+    list-style: none;
+}
+
+.green {
+    background-color: green;
+     color:white;
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
