@@ -8,7 +8,7 @@ function getDeviceTypes() {
     global $conn;
     $sql = "SELECT DISTINCT(deviceType)
             FROM `tc_device` 
-            ORDER BY deviceType";
+            ORDER BY deviceType ";
     
     $stmt = $conn->prepare($sql);
     $stmt->execute();
@@ -26,7 +26,6 @@ function displayDevices(){
     global $conn;
     
     $sql = "SELECT * FROM tc_device WHERE 1 ";
-    
     
     if (isset($_GET['submit'])){
         
@@ -71,8 +70,9 @@ function displayDevices(){
             else {
                 $sql .= " ORDER BY price ASC";
             }
-            
-            
+        }
+        if(!isset($_GET['orderBy'])) {
+            $sql .= " ORDER BY deviceName ASC";
         }
         
         
