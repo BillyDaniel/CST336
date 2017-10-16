@@ -1,0 +1,39 @@
+h1 { 
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+p {
+     margin-left: 20%;
+}
+
+iframe {
+    margin-left: 20%;
+}
+
+body {
+    background-color: #4d6c77;
+}
+
+/*color*/
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: #009cd6;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
