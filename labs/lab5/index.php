@@ -26,7 +26,7 @@ function displayDevices(){
     global $conn;
     
     $sql = "SELECT * FROM tc_device WHERE 1 ";
-    
+        
     if (isset($_GET['submit'])){
         
         $namedParameters = array();
@@ -70,14 +70,13 @@ function displayDevices(){
             else {
                 $sql .= " ORDER BY price ASC";
             }
-        }
-        if(!isset($_GET['orderBy'])) {
-            $sql .= " ORDER BY deviceName ASC";
-        }
+        } 
         
-        
-        
-    }//endIf (isset)
+    }
+    else {
+        $sql .= " ORDER BY deviceName ASC";
+    }
+    //endIf (isset)
     
     //If user types a deviceName
      //   "AND deviceName LIKE '%$_GET['deviceName']%'";
