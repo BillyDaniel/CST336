@@ -63,7 +63,7 @@ function displayUsers() {
             echo $user['userId']. " "."[<a target='userData' href='userData.php?userId=".$user['userId']."'> ".$user['firstName'] . "  " . $user['lastName']." </a>]";
             echo "[<a href='updateUser.php?userId=".$user['userId']."'> Update </a> ]";
             //echo "[<a href='deleteUser.php?userId=".$user['userId']."'> Delete </a> ]";
-            echo "<form action='deleteUser.php' style='display:inline' onsubmit='return confirmDelete(\"".$user['firstName']."\")'>
+            echo "<form action='deleteUser.php' style='display:inline'>
                     <input type='hidden' name='userId' value='".$user['userId']."'/>
                     <input type='submit' value='Delete'>
                   </form>

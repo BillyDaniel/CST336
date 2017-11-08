@@ -115,3 +115,193 @@ Stack trace:
 #0 /home/ubuntu/workspace/CST336/labs/lab5/practice.php(8): PDO->__construct('mysql:host=us-c...', 'root', '')
 #1 {main}
   thrown in /home/ubuntu/workspace/CST336/labs/lab5/practice.php on line 8
+[15-Oct-2017 05:09:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:80
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(80): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(129): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 80
+[15-Oct-2017 05:10:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:80
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(80): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(129): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 80
+[15-Oct-2017 05:10:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:80
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(80): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(129): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 80
+[15-Oct-2017 05:12:09 UTC] PHP Warning:  include(../../dcConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php on line 3
+[15-Oct-2017 05:12:09 UTC] PHP Stack trace:
+[15-Oct-2017 05:12:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php:0
+[15-Oct-2017 05:12:09 UTC] PHP   2. displayCheckoutHistory() /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php:30
+[15-Oct-2017 05:12:09 UTC] PHP Warning:  include(): Failed opening '../../dcConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php on line 3
+[15-Oct-2017 05:12:09 UTC] PHP Stack trace:
+[15-Oct-2017 05:12:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php:0
+[15-Oct-2017 05:12:09 UTC] PHP   2. displayCheckoutHistory() /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php:30
+[15-Oct-2017 05:12:09 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php on line 4
+[15-Oct-2017 05:12:09 UTC] PHP Stack trace:
+[15-Oct-2017 05:12:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php:0
+[15-Oct-2017 05:12:09 UTC] PHP   2. displayCheckoutHistory() /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php:30
+[15-Oct-2017 05:24:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:80
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(80): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(129): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 80
+[15-Oct-2017 05:26:13 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 90
+[15-Oct-2017 05:26:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:79
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(79): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(128): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 79
+[16-Oct-2017 03:28:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY deviceName ASC' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:89
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(89): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(139): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 89
+[16-Oct-2017 03:28:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY price ASC' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:89
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(89): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(139): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 89
+[16-Oct-2017 03:31:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(90): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(140): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 90
+[16-Oct-2017 03:31:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(90): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(140): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 90
+[16-Oct-2017 03:43:23 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 74
+[16-Oct-2017 03:48:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:88
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(88): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(138): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 88
+[16-Oct-2017 03:48:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:88
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(88): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(138): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 88
+[16-Oct-2017 03:53:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' deviceName ASC'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:92
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(92): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(143): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 92
+[16-Oct-2017 03:54:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(90): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(141): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 90
+[16-Oct-2017 03:55:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' deviceName ASC' ORDER BY ' deviceName ASC'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:92
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(92): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(143): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 92
+[16-Oct-2017 04:01:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:87
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(87): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(137): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 87
+[16-Oct-2017 04:02:45 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 146
+[16-Oct-2017 04:04:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:87
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(87): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(137): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 87
+[16-Oct-2017 04:27:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:87
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(87): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(137): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 87
+[16-Oct-2017 04:28:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(85): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(135): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 85
+[16-Oct-2017 04:28:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(85): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(135): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 85
+[25-Oct-2017 19:22:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.tc_admin' doesn't exist' in /home/ubuntu/workspace/CST336/labs/lab6/loginProcess.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/loginProcess.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/loginProcess.php on line 29
+[25-Oct-2017 20:07:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.tc_admin' doesn't exist' in /home/ubuntu/workspace/CST336/labs/lab6/loginProcess.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/loginProcess.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/loginProcess.php on line 29
+[27-Oct-2017 19:39:50 UTC] PHP Parse error:  syntax error, unexpected 'tc_user' (T_STRING) in /home/ubuntu/workspace/CST336/labs/lab6/updateUser.php on line 39
+[27-Oct-2017 20:12:20 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/deleteUser.php on line 8
+[27-Oct-2017 20:12:20 UTC] PHP Stack trace:
+[27-Oct-2017 20:12:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/deleteUser.php:0
+[27-Oct-2017 20:12:29 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/deleteUser.php on line 8
+[27-Oct-2017 20:12:29 UTC] PHP Stack trace:
+[27-Oct-2017 20:12:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/deleteUser.php:0
+[27-Oct-2017 20:40:45 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/CST336/labs/lab6/admin.php on line 64
+[31-Oct-2017 03:46:41 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/deleteUser.php on line 8
+[31-Oct-2017 03:46:41 UTC] PHP Stack trace:
+[31-Oct-2017 03:46:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/deleteUser.php:0
+[31-Oct-2017 03:47:46 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/deleteUser.php on line 8
+[31-Oct-2017 03:47:46 UTC] PHP Stack trace:
+[31-Oct-2017 03:47:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/deleteUser.php:0
+[31-Oct-2017 04:02:36 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/CST336/labs/lab6/updateUser.php on line 100
+[31-Oct-2017 04:05:12 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/CST336/labs/lab6/updateUser.php on line 100
+[31-Oct-2017 04:10:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/CST336/labs/lab6/updateUser.php:55
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/updateUser.php(55): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/updateUser.php on line 55
+[31-Oct-2017 04:12:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST336/labs/lab6/updateUser.php:55
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/updateUser.php(55): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/updateUser.php on line 55
+[31-Oct-2017 04:12:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/CST336/labs/lab6/updateUser.php:55
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/updateUser.php(55): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/updateUser.php on line 55
+[31-Oct-2017 05:35:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'departmentId' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab6/updateUser.php:60
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/updateUser.php(60): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/updateUser.php on line 60
+[31-Oct-2017 05:37:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'departmentId' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab6/updateUser.php:62
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/updateUser.php(62): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/updateUser.php on line 62
+[31-Oct-2017 05:39:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'departmentId' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab6/updateUser.php:63
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/updateUser.php(63): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/updateUser.php on line 63
+[31-Oct-2017 05:40:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'deptName' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab6/updateUser.php:63
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/updateUser.php(63): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/updateUser.php on line 63

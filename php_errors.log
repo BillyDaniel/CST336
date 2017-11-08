@@ -8,3 +8,37 @@
 [13-Sep-2017 19:36:26 UTC] PHP Fatal error:  Call to undefined function display() in /home/ubuntu/workspace/CST336/Practice/php_arrays.php on line 49
 [13-Sep-2017 19:36:26 UTC] PHP Stack trace:
 [13-Sep-2017 19:36:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/Practice/php_arrays.php:0
+[11-Oct-2017 19:55:26 UTC] PHP Fatal error:  Call to undefined function newPDO() in /home/ubuntu/workspace/CST336/Practice/sql_joins.php on line 7
+[11-Oct-2017 19:55:26 UTC] PHP Stack trace:
+[11-Oct-2017 19:55:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/Practice/sql_joins.php:0
+[11-Oct-2017 19:57:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'b187db0343a09b'@'%' to database 'tcp'' in /home/ubuntu/workspace/CST336/Practice/sql_joins.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/Practice/sql_joins.php(7): PDO->__construct('mysql:host=us-c...', 'b187db0343a09b', '09b42118')
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/Practice/sql_joins.php on line 7
+[11-Oct-2017 19:57:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'b187db0343a09b'@'localhost' (using password: YES)' in /home/ubuntu/workspace/CST336/Practice/sql_joins.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/Practice/sql_joins.php(7): PDO->__construct('mysql:host=loca...', 'b187db0343a09b', '09b42118')
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/Practice/sql_joins.php on line 7
+[08-Nov-2017 19:12:26 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/project2_336/index.php on line 10
+[08-Nov-2017 19:12:26 UTC] PHP Stack trace:
+[08-Nov-2017 19:12:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/project2_336/index.php:0
+[08-Nov-2017 19:12:26 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/project2_336/index.php on line 10
+[08-Nov-2017 19:12:26 UTC] PHP Stack trace:
+[08-Nov-2017 19:12:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/project2_336/index.php:0
+[08-Nov-2017 19:12:26 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/project2_336/index.php on line 11
+[08-Nov-2017 19:12:26 UTC] PHP Stack trace:
+[08-Nov-2017 19:12:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/project2_336/index.php:0
+[08-Nov-2017 19:13:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.gp2_game' doesn't exist' in /home/ubuntu/workspace/CST336/project2_336/index.php:67
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/project2_336/index.php(67): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/project2_336/index.php(124): displayGames()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/project2_336/index.php on line 67
+[08-Nov-2017 19:15:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'group_project__2'' in /home/ubuntu/workspace/CST336/dbConnection.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/dbConnection.php(22): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/CST336/project2_336/index.php(11): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/dbConnection.php on line 22
