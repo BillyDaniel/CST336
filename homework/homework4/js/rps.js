@@ -62,7 +62,7 @@ function go(){
 	else if(numChoice==1){ 
 		computerChoice = 'paper';
 		imgComputer.src='img/paper.png';
-		document.getElementById('lblpaper').style.backgroundColor = 'yellow';
+		document.getElementById('lblPaper').style.backgroundColor = 'yellow';
 		if(playerChoice=='rock'){
 			txtEndTitle.innerHTML='Paper Covers Rock';
 			txtEndMessage.innerHTML='YOU LOSE';
@@ -79,7 +79,7 @@ function go(){
 	else if(numChoice==2){ 
 		computerChoice = 'scissors';
 		imgComputer.src='img/scissors.png';
-		document.getElementById('lblscissors').style.backgroundColor = 'yellow';
+		document.getElementById('lblScissors').style.backgroundColor = 'yellow';
 		if(playerChoice=='rock'){
 			txtEndTitle.innerHTML='Rock Smashes Scissors';
 			txtEndMessage.innerHTML='YOU WIN';
@@ -103,8 +103,8 @@ function startGame() {
 
 function replay(){
 	location.reload();
-}
-/*	document.getElementById('endScreen').style.display='none';
+	/*
+	document.getElementById('endScreen').style.display='none';
 	btnGo.style.display='none';
 	
 	deselectAll();
@@ -114,4 +114,5 @@ function replay(){
 	
 	imgPlayer.src = 'img/question.png';
 	document.getElementById('imgComputer').src='img/question.png';
-}*/
+	*/
+}
