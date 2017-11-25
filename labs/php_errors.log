@@ -305,3 +305,53 @@ Stack trace:
 #0 /home/ubuntu/workspace/CST336/labs/lab6/updateUser.php(63): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/CST336/labs/lab6/updateUser.php on line 63
+[25-Nov-2017 05:29:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'group_project_2.tc_user' doesn't exist' in /home/ubuntu/workspace/CST336/labs/lab8/checkUsername.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab8/checkUsername.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab8/checkUsername.php on line 17
+[25-Nov-2017 05:30:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'group_project_2.tc_user' doesn't exist' in /home/ubuntu/workspace/CST336/labs/lab8/checkUsername.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab8/checkUsername.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab8/checkUsername.php on line 17
+[25-Nov-2017 05:32:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'group_project_2.tc_user' doesn't exist' in /home/ubuntu/workspace/CST336/labs/lab8/checkUsername.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab8/checkUsername.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab8/checkUsername.php on line 17
+[25-Nov-2017 05:46:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'group_project_2.tc_user' doesn't exist' in /home/ubuntu/workspace/CST336/labs/lab8/checkUsername.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab8/checkUsername.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab8/checkUsername.php on line 17
+[25-Nov-2017 05:46:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'group_project_2.tc_user' doesn't exist' in /home/ubuntu/workspace/CST336/labs/lab8/checkUsername.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab8/checkUsername.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab8/checkUsername.php on line 17
+[25-Nov-2017 05:46:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'group_project_2.tc_user' doesn't exist' in /home/ubuntu/workspace/CST336/labs/lab8/checkUsername.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab8/checkUsername.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab8/checkUsername.php on line 17
+[25-Nov-2017 05:46:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'group_project_2.tc_user' doesn't exist' in /home/ubuntu/workspace/CST336/labs/lab8/checkUsername.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab8/checkUsername.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab8/checkUsername.php on line 17
+[25-Nov-2017 05:46:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'group_project_2.tc_user' doesn't exist' in /home/ubuntu/workspace/CST336/labs/lab8/checkUsername.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab8/checkUsername.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab8/checkUsername.php on line 17
+[25-Nov-2017 05:54:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'group_project_2.tc_user' doesn't exist' in /home/ubuntu/workspace/CST336/labs/lab8/checkUsername.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab8/checkUsername.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab8/checkUsername.php on line 17
+[25-Nov-2017 05:57:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'group_project_2.tc_user' doesn't exist' in /home/ubuntu/workspace/CST336/labs/lab8/checkUsername.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab8/checkUsername.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab8/checkUsername.php on line 17
