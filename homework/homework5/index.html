@@ -1,0 +1,134 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">        
+        <title>AJAX: Weather Forecast</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script>
+    function getCity() {
+        
+        $.ajax({
+
+            type: "GET",
+            url: 'http://api.openweathermap.org/data/2.5/forecast?q=' + $("#city").val() + '&APPID=1a0c50d47c17fbf90b52fa7f52615e62&units=imperial',
+            dataType: "json",
+            success: function(data,status) {
+                $("#zip").val('');
+                $("#weather").html("");
+                $("#temp").html("");
+                $("#humidity").html("");
+                if(!data){
+                    $("#errorMesCity").html("City not found");
+                }
+              else{
+                  $("#weather").html(data.list[0].weather[0].main);
+                  $("#humidity").html(data.list[0].main.humidity);
+                  $("#temp1").html(data.list[0].main.temp);
+                  $("#temp2").html(data.list[1].main.temp);
+                  $("#temp3").html(data.list[2].main.temp);
+                  
+              }
+            },
+            complete: function(data,status) {            }
+
+        });
+        
+    }  
+    function getZip() {
+        
+        $.ajax({
+
+            type: "GET",
+            url: 'http://api.openweathermap.org/data/2.5/forecast?zip=' + $("#zip").val() + ',us&APPID=1a0c50d47c17fbf90b52fa7f52615e62&units=imperial',
+            dataType: "json",
+            success: function(data,status) {
+                // /alert($("#city").val());
+                $("#city").val('');
+                $("#weather").html("");
+                $("#temp").html("");
+                $("#humidity").html("");
+                if(!data){
+                    $("#errorMesZip").html("Zip code not found");
+                }
+              else{
+                  $("#weather").html(data.list[0].weather[0].main);
+                  $("#humidity").html(data.list[0].main.humidity);
+                  $("#temp1").html(data.list[0].main.temp);
+                  $("#temp2").html(data.list[1].main.temp);
+                  $("#temp3").html(data.list[2].main.temp);
+                  
+              }
+            },
+            complete: function(data,status) {
+            }
+
+        });
+        
+    }  //function
+        
+    function insertData1(){
+        $.ajax({
+            type: "POST",
+            url:"insertData.php",
+            dataType: "json",
+            data: {"city":$("#city").val()}, 
+            success:function(data, status){
+                console.log("YES!!!!!")
+            }
+        });
+    }
+
+    function insertData2(){
+        $.ajax({
+            url:"insertData.php?zip=" +$("#zip").val(),
+            success:function(){
+                console.log("YES!!!!!")
+            }
+        });
+         
+    }
+    
+        $(document).ready(  function(){
+        $("#city").change( function()
+            {
+                getCity();
+                insertData1();
+            });
+        $("#zip").change( function() 
+        {
+            getZip();
+            insertData2();
+        } );
+    
+    } );
+    
+    </script>
+
+    </head>
+    
+    
+    <body  class='jumbotron'>
+        <div class='container text-center'>
+            <h1> Weather Forecast</h1>
+             <form onsubmit="return false">
+                <fieldset class="container text-left">
+                   <legend>Enter A City or Zip Code</legend>
+                    City:    <input type="text" id="city"><span id="errorMesCity"></span><br>
+                    Zip code:    <input type="text" id="zip"><span id="errorMesZip"></span><br><br>
+
+                    Current Forecast: <span id="weather"></span> 
+                    <br>
+                    Current Humidity:<span id="humidity"></span> 
+                    <br>
+                    Temperature Today: <span id="temp1"></span> 
+                    <br>
+                    Temperature Tomorrow: <span id="temp2"></span> 
+                    <br>
+                    Temperature The Day After Tomorrow: <span id="temp3"></span> 
+                    <br><br>
+                </fieldset>
+            </form>
+            <a href='history.php'>History</a>
+        </div>
+    </body>
+</html>
