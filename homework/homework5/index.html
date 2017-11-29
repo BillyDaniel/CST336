@@ -1,3 +1,8 @@
+<?php
+
+
+?>
+
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">        
@@ -68,21 +73,22 @@
         
     function insertData1(){
         $.ajax({
-            type: "POST",
+            type: 'GET',
             url:"insertData.php",
             dataType: "json",
             data: {"city":$("#city").val()}, 
             success:function(data, status){
-                console.log("YES!!!!!")
             }
         });
     }
 
     function insertData2(){
         $.ajax({
-            url:"insertData.php?zip=" +$("#zip").val(),
-            success:function(){
-                console.log("YES!!!!!")
+            type: 'GET',
+            url:"insertData.php",
+            dataType: "json",
+            data: {"zip":$("#zip").val()}, 
+            success:function(data, status){
             }
         });
          
