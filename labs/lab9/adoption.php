@@ -26,7 +26,7 @@
             
             //alert($(this).attr('id'));
             $('#petInfoModal').modal("show");
-            $("#petInfo").html("img src='img/loading.gif'>");
+            $("#petInfo").html("<img src='img/loading.gif'>");
             
             $.ajax({
 
