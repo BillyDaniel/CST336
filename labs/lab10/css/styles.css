@@ -1,0 +1,43 @@
+body {
+    background-color:black;
+    color:white;
+}    
+
+.bigger{
+    height: 500px;
+    width: 500px;
+    transition: width 1s;
+    height:auto;
+}
+
+.center{
+    margin: auto;
+    width: 20%;
+    padding: 10px;    
+}
+
+img {
+    margin: auto;
+    padding: 10px;
+}
+
+#title{
+    text-align: center;
+}
+.button {
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  background-color: #4CAF50;
+}
+
+hr { 
+    display: block;
+    color: white;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 3px;
+}
